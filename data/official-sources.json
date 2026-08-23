@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-08-23",
+  "policy": "RAW stores source metadata and links to authoritative material. It does not copy copyrighted textbooks or coaching content into the repository without permission.",
+  "sources": [
+    {"id":"jee-main-2026-syllabus","exam":"JEE Main","year":2026,"provider":"National Testing Agency","type":"syllabus","url":"https://jeemain.nta.nic.in/document/syllabus-2026/","status":"official"},
+    {"id":"jee-main-2026-documents","exam":"JEE Main","year":2026,"provider":"National Testing Agency","type":"official-documents","url":"https://jeemain.nta.nic.in/documents/","status":"official"},
+    {"id":"jee-main-2026-bulletin","exam":"JEE Main","year":2026,"provider":"National Testing Agency","type":"information-bulletin","url":"https://jeemain.nta.nic.in/information-bulletin/","status":"official"},
+    {"id":"neet-2026-syllabus","exam":"NEET UG","year":2026,"provider":"National Testing Agency","type":"syllabus","url":"https://neet.nta.nic.in/documents/page/4/","status":"official"},
+    {"id":"neet-2026-documents","exam":"NEET UG","year":2026,"provider":"National Testing Agency","type":"official-documents","url":"https://neet.nta.nic.in/documents/","status":"official"},
+    {"id":"cbse-2026-27-curriculum","exam":"CBSE","year":"2026-27","provider":"Central Board of Secondary Education","type":"curriculum","url":"https://cbseacademic.nic.in/curriculum_2027.html","status":"official"},
+    {"id":"ncert-textbooks","exam":"CBSE/NCERT","provider":"NCERT","type":"official-textbook-library","url":"https://ncert.nic.in/textbook.php","status":"official"}
+  ],
+  "content_rules": [
+    "Do not represent source metadata as original RAW content.",
+    "Do not ingest copyrighted books or coaching material without permission.",
+    "Original RAW questions must be marked original and pass validation before publication.",
+    "AI-generated academic questions must not become verified content without review.",
+    "Exam dates and policies must be sourced from the current official authority and marked stale when no longer current."
+  ]
+}
